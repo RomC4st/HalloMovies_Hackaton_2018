@@ -30,8 +30,9 @@ export default class App extends React.Component {
             <Image style={{height: 240, width: 300}} source={require('./logo_hackaton.png')} />
             <TouchableOpacity onPress={() => this.handleSubmit()}
                 style ={{
-                    height: 100,
+                    height: 80,
                     width:250,
+                    marginBottom:20,
                     marginLeft :50,
                     marginRight:50,
                     marginTop :20,
@@ -39,7 +40,7 @@ export default class App extends React.Component {
                     borderRadius: 100
                 }}>
             <Text style={{color:'white',marginRight:'auto',marginLeft:'auto',marginTop:'auto',marginBottom:'auto',fontSize:20}}>
-            Vas y clique, tu verras ...
+            PROPOSE ME A MOVIE
               </Text>
            </TouchableOpacity>
           </View>
