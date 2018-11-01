@@ -133,7 +133,7 @@ export default class FicheFilm extends Component {
             /10
           </Text>
 
-          <Text style={styles.revenue}>No Trailer Availaible</Text>
+          <Text style={styles.revenue}>No Trailer Available</Text>
           <View style={styles.containerback}>
             <TouchableHighlight onPress={() => this.handleClickRenderApp()}>
               <Image

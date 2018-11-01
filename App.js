@@ -31,7 +31,7 @@ export default class App extends React.Component {
             <TouchableOpacity onPress={() => this.handleSubmit()}
                 style ={{
                     height: 80,
-                    width:250,
+                    width:280,
                     marginBottom:20,
                     marginLeft :50,
                     marginRight:50,
@@ -40,7 +40,7 @@ export default class App extends React.Component {
                     borderRadius: 100
                 }}>
             <Text style={{color:'white',marginRight:'auto',marginLeft:'auto',marginTop:'auto',marginBottom:'auto',fontSize:20}}>
-            PROPOSE ME A MOVIE
+            PROPOSE ME SOME MOVIES
               </Text>
            </TouchableOpacity>
           </View>
